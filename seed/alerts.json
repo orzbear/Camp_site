@@ -1,0 +1,152 @@
+[
+  {
+    "park_name": "Blue Mountains National Park",
+    "severity": "high",
+    "title": "Bushfire Risk - Extreme Weather Conditions",
+    "summary": "Extreme fire danger conditions are forecast for the Blue Mountains region. All campfires and BBQs are prohibited. Visitors are advised to reconsider travel plans.",
+    "starts_at": "2024-01-15T00:00:00Z",
+    "ends_at": "2024-01-17T23:59:59Z",
+    "source": "NSW Rural Fire Service",
+    "url": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me"
+  },
+  {
+    "park_name": "Kosciuszko National Park",
+    "severity": "medium",
+    "title": "Snow Conditions - Road Closures",
+    "summary": "Heavy snowfall has caused temporary road closures on Alpine Way and Kosciuszko Road. Chains are required for all vehicles. Check conditions before travel.",
+    "starts_at": "2024-01-10T06:00:00Z",
+    "ends_at": "2024-01-12T18:00:00Z",
+    "source": "NSW National Parks and Wildlife Service",
+    "url": "https://www.nationalparks.nsw.gov.au/alerts"
+  },
+  {
+    "park_name": "Grampians National Park",
+    "severity": "low",
+    "title": "Track Maintenance - Mackenzie Falls",
+    "summary": "The Mackenzie Falls walking track will be closed for maintenance from 8am to 4pm daily. Alternative viewing areas remain accessible.",
+    "starts_at": "2024-01-20T08:00:00Z",
+    "ends_at": "2024-01-25T16:00:00Z",
+    "source": "Parks Victoria",
+    "url": "https://www.parks.vic.gov.au/alerts"
+  },
+  {
+    "park_name": "Wilsons Promontory National Park",
+    "severity": "medium",
+    "title": "High Winds - Tidal River Area",
+    "summary": "Strong winds up to 60km/h are forecast for the Tidal River area. Campers are advised to secure all equipment and avoid exposed areas.",
+    "starts_at": "2024-01-18T12:00:00Z",
+    "ends_at": "2024-01-19T12:00:00Z",
+    "source": "Bureau of Meteorology",
+    "url": "https://www.bom.gov.au/vic/warnings/"
+  },
+  {
+    "park_name": "Lamington National Park",
+    "severity": "low",
+    "title": "Seasonal Closure - Binna Burra Road",
+    "summary": "Binna Burra Road will be closed for annual maintenance from 6pm Friday to 6am Monday. Alternative access via O'Reilly's Road.",
+    "starts_at": "2024-01-26T18:00:00Z",
+    "ends_at": "2024-01-29T06:00:00Z",
+    "source": "Queensland Parks and Wildlife Service",
+    "url": "https://parks.des.qld.gov.au/alerts"
+  },
+  {
+    "park_name": "Daintree National Park",
+    "severity": "high",
+    "title": "Flood Warning - Daintree River",
+    "summary": "Heavy rainfall has caused the Daintree River to rise rapidly. Ferry services may be suspended. Do not attempt to cross flooded roads.",
+    "starts_at": "2024-01-14T14:00:00Z",
+    "ends_at": "2024-01-16T14:00:00Z",
+    "source": "Queensland Department of Transport",
+    "url": "https://www.tmr.qld.gov.au/travel-and-transport/road-conditions"
+  },
+  {
+    "park_name": "Margaret River Region",
+    "severity": "medium",
+    "title": "Shark Alert - Prevelly Beach",
+    "summary": "A shark has been sighted in the waters off Prevelly Beach. Swimming is not recommended. Beach remains open for other activities.",
+    "starts_at": "2024-01-12T10:00:00Z",
+    "ends_at": "2024-01-13T10:00:00Z",
+    "source": "Department of Primary Industries and Regional Development",
+    "url": "https://www.sharksmart.com.au/"
+  },
+  {
+    "park_name": "Fitzgerald River National Park",
+    "severity": "low",
+    "title": "Wildflower Season - Increased Visitors",
+    "summary": "Peak wildflower season is attracting large numbers of visitors. Expect delays at popular viewing areas and book accommodation in advance.",
+    "starts_at": "2024-01-01T00:00:00Z",
+    "ends_at": "2024-01-31T23:59:59Z",
+    "source": "Department of Biodiversity Conservation and Attractions",
+    "url": "https://parks.dpaw.wa.gov.au/alerts"
+  },
+  {
+    "park_name": "Flinders Ranges National Park",
+    "severity": "medium",
+    "title": "Extreme Heat Warning",
+    "summary": "Temperatures exceeding 40°C are forecast for the Flinders Ranges. Ensure adequate water supplies and avoid strenuous activities during peak heat.",
+    "starts_at": "2024-01-22T06:00:00Z",
+    "ends_at": "2024-01-24T18:00:00Z",
+    "source": "Bureau of Meteorology",
+    "url": "https://www.bom.gov.au/sa/warnings/"
+  },
+  {
+    "park_name": "Kangaroo Island",
+    "severity": "high",
+    "title": "Road Damage - South Coast Road",
+    "summary": "Recent storms have caused significant damage to South Coast Road. 4WD vehicles only. Check with local authorities before travel.",
+    "starts_at": "2024-01-08T00:00:00Z",
+    "ends_at": "2024-01-30T23:59:59Z",
+    "source": "Department for Infrastructure and Transport",
+    "url": "https://www.dit.sa.gov.au/road-conditions"
+  },
+  {
+    "park_name": "Cradle Mountain-Lake St Clair National Park",
+    "severity": "medium",
+    "title": "Avalanche Risk - Overland Track",
+    "summary": "High avalanche risk on the Overland Track due to recent snowfall. Experienced hikers only. Check with Parks Tasmania before departure.",
+    "starts_at": "2024-01-16T00:00:00Z",
+    "ends_at": "2024-01-20T23:59:59Z",
+    "source": "Tasmania Parks and Wildlife Service",
+    "url": "https://parks.tas.gov.au/alerts"
+  },
+  {
+    "park_name": "Freycinet National Park",
+    "severity": "low",
+    "title": "Penguin Viewing - Seasonal Restrictions",
+    "summary": "Little penguin breeding season. Access to viewing areas restricted to guided tours only. Bookings essential.",
+    "starts_at": "2024-01-01T00:00:00Z",
+    "ends_at": "2024-03-31T23:59:59Z",
+    "source": "Tasmania Parks and Wildlife Service",
+    "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park"
+  },
+  {
+    "park_name": "Kakadu National Park",
+    "severity": "high",
+    "title": "Crocodile Warning - Jim Jim Falls",
+    "summary": "Saltwater crocodile activity reported near Jim Jim Falls. Swimming is strictly prohibited. Stay well back from water's edge.",
+    "starts_at": "2024-01-11T00:00:00Z",
+    "ends_at": "2024-01-25T23:59:59Z",
+    "source": "Parks Australia",
+    "url": "https://parksaustralia.gov.au/kakadu/plan/safety/"
+  },
+  {
+    "park_name": "Uluru-Kata Tjuta National Park",
+    "severity": "medium",
+    "title": "Cultural Ceremony - Restricted Access",
+    "summary": "Traditional cultural ceremonies will restrict access to certain areas around Uluru. Respect cultural protocols and follow ranger instructions.",
+    "starts_at": "2024-01-28T06:00:00Z",
+    "ends_at": "2024-01-30T18:00:00Z",
+    "source": "Parks Australia",
+    "url": "https://parksaustralia.gov.au/uluru/plan/cultural-protocols/"
+  },
+  {
+    "park_name": "Namadgi National Park",
+    "severity": "low",
+    "title": "Wildlife Research - Temporary Closures",
+    "summary": "Wildlife research activities will temporarily close some walking tracks in the Orroral Valley area. Alternative routes available.",
+    "starts_at": "2024-01-21T08:00:00Z",
+    "ends_at": "2024-01-23T16:00:00Z",
+    "source": "ACT Parks and Conservation Service",
+    "url": "https://www.environment.act.gov.au/parks-conservation/alerts"
+  }
+]
