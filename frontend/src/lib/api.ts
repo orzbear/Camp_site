@@ -44,25 +44,34 @@ api.interceptors.response.use(
 
 // Spots API
 export const spotsApi = {
-  search: async (request: SpotSearchRequest): Promise<{ content: SpotResponse[]; totalElements: number; totalPages: number; page: number; size: number }> => {
+      search: async (request: SpotSearchRequest): Promise<{ 
+    content: SpotResponse[]; totalElements: number; totalPages: number; page: number; size: number 
+  }> => {
     const params = new URLSearchParams();
-    
-    if (request.query) params.append('q', request.query);
-    if (request.region) params.append('region', request.region);
-    if (request.petAllowed !== undefined) params.append('pet', request.petAllowed.toString());
-    if (request.bookable !== undefined) params.append('bookable', request.bookable.toString());
-    if (request.hasBbq !== undefined) params.append('amenities', 'bbq');
-    if (request.hasToilet !== undefined) params.append('amenities', 'toilet');
-    if (request.hasWater !== undefined) params.append('amenities', 'water');
-    if (request.hasShelter !== undefined) params.append('amenities', 'shelter');
-    if (request.hasPower !== undefined) params.append('amenities', 'power');
-    
-    params.append('page', (request.page || 0).toString());
-    params.append('size', (request.size || 20).toString());
-    
-    const response: AxiosResponse<{ content: SpotResponse[]; totalElements: number; totalPages: number; number: number; size: number }> = 
-      await api.get(`/spots/search?${params.toString()}`);
-    
+
+    // strings
+    if (request.query && request.query.trim() !== "") params.append("q", request.query.trim());
+    if (request.region && request.region.trim() !== "") params.append("region", request.region.trim());
+
+    // booleans: only append when explicitly true/false (not null/undefined)
+    if (request.petAllowed != null) params.append("pet", String(request.petAllowed));
+    if (request.bookable != null) params.append("bookable", String(request.bookable));
+
+    // amenities: only when true
+    if (request.hasBbq === true) params.append("amenities", "bbq");
+    if (request.hasToilet === true) params.append("amenities", "toilet");
+    if (request.hasWater === true) params.append("amenities", "water");
+    if (request.hasShelter === true) params.append("amenities", "shelter");
+    if (request.hasPower === true) params.append("amenities", "power");
+
+    // pagination (only when not null/undefined)
+    if (request.page != null) params.append("page", String(request.page));
+    if (request.size != null) params.append("size", String(request.size));
+
+    const url = `/spots/search${params.toString() ? `?${params.toString()}` : ""}`;
+    const response: AxiosResponse<{ content: SpotResponse[]; totalElements: number; totalPages: number; number: number; size: number }> =
+      await api.get(url);
+
     return {
       content: response.data.content,
       totalElements: response.data.totalElements,

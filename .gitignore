@@ -1,0 +1,63 @@
+# =========================
+# Backend (Spring Boot)
+# =========================
+/target/
+/build/
+/out/
+/*.iml
+*.class
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Maven Wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# =========================
+# Frontend (Vite / React)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.parcel-cache/
+
+# Local environment files
+.env
+.env.*
+!env.example
+
+# =========================
+# Logs & Misc
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Coverage / Testing
+# =========================
+coverage/
+*.lcov
+
+# =========================
+# System / Editor junk
+# =========================
+*.sw?
+*.swo
+*.orig
+*.rej
+*~
